@@ -1,16 +1,27 @@
-import React, { Component } from 'react'
-import styled from 'styled-components'
-import { Row, Col } from "reactstrap";
+import React, { Component } from 'react';
+//thirt party imports
+import { 
+    Row, 
+    Col 
+    } from "reactstrap";
+//local imports
 import { DashboardBanner } from "./componentStyles/dashboardStyles";
+import { NewLog } from "./NewLog";
 
 export class Dashboard extends Component {
   render() {
     return (
       <DashboardBanner>
           <Row>
-              <Col>One</Col>
-              <Col>Two</Col>
-              <Col>Three</Col>
+              <Col xs="12" sm="4">
+                <NewLog />
+              </Col>
+              <Col xs="12" sm="4">
+                <NewLog />
+              </Col>
+              <Col xs="12" sm="4">
+                  <NewLog />         
+              </Col>
 
           </Row>
         
