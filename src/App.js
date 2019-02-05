@@ -6,12 +6,14 @@ import styled from 'styled-components'
 import './App.css';
 // local component imports
 import Navbar from './components/Navigation'
+import Dashboard from './components/Dashboard'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Navbar/>
+        <Dashboard/>
       </div>
     );
   }
