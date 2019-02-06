@@ -7,6 +7,7 @@ import {
 //local imports
 import { DashboardBanner } from "./componentStyles/dashboardStyles";
 import { NewLog } from "./NewLog";
+import { LogSnapshot } from "./LogSnapshot";
 
 export class Dashboard extends Component {
   render() {
@@ -21,6 +22,17 @@ export class Dashboard extends Component {
               </Col>
               <Col xs="12" sm="4">
                   <NewLog />         
+              </Col>
+          </Row>
+          <Row>
+              <Col>
+                <LogSnapshot />
+              </Col>
+              <Col>
+                <LogSnapshot />
+              </Col>             
+               <Col>
+                <LogSnapshot />
               </Col>
           </Row>
       </DashboardBanner>
