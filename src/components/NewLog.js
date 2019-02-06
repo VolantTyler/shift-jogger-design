@@ -2,7 +2,11 @@ import React, { Component } from 'react'
 import { 
     Button
  } from "reactstrap";
-import { BannerLog } from "./componentStyles/bannerLogStyles";
+import { 
+    BannerLog, 
+    BannerButton
+    } from "./componentStyles/bannerLogStyles";
+
 
 export class NewLog extends Component {
   render() {
@@ -10,7 +14,7 @@ export class NewLog extends Component {
       <BannerLog>
         <p>Hours Worked:</p>
         <h1>5.75</h1>
-        <Button outline color="secondary">New Log</Button>
+        <Button style={BannerButton}>New Log</Button>
       </BannerLog>
     )
   }

@@ -22,9 +22,7 @@ export class Dashboard extends Component {
               <Col xs="12" sm="4">
                   <NewLog />         
               </Col>
-
           </Row>
-        
       </DashboardBanner>
     )
   }
