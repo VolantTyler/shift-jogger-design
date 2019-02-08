@@ -13,3 +13,7 @@ export const SnapShotStyle = {
 export const PrimaryText = styled.h1`
 
 `;
+
+export const Curved = {
+    borderRadius: '.75rem',
+}

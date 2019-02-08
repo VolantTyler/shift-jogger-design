@@ -7,5 +7,6 @@ export const BannerLog = styled.div`
 
 export const BannerButton = {
     backgroundColor: '#ebeff3',
-    color: '#343a40'    
+    color: '#343a40',
+    borderRadius: '.75rem'
 }

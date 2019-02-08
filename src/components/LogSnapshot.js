@@ -1,13 +1,15 @@
 import React, {Component} from 'react';
-import { Card, Button, CardFooter, CardBody,
+import { Card, CardFooter, CardBody,
   CardTitle, CardText } from 'reactstrap';
-import {PrimaryText} from "./componentStyles/dashboardStyles";
+import {
+    PrimaryText, 
+    Curved} from "./componentStyles/dashboardStyles";
 
 export class LogSnapshot extends Component  {
     render() {
   return (
     <div>
-      <Card>
+      <Card style = {Curved}>
         <CardBody>
           <CardTitle>John Smith</CardTitle>
           <PrimaryText>2.50 </PrimaryText>
