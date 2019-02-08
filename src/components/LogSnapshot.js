@@ -7,11 +7,11 @@ export class LogSnapshot extends Component  {
   return (
     <div>
       <Card>
-        <CardHeader tag="h3">Featured</CardHeader>
         <CardBody>
-          <CardTitle>Special Title Treatment</CardTitle>
-          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-          <Button>Go somewhere</Button>
+          <CardTitle>John Smith</CardTitle>
+          <CardText>2.50</CardText>
+          <CardText>2/7/19</CardText>
+          <Button>View Invoice</Button>
         </CardBody>
         <CardFooter className="text-muted">Footer</CardFooter>
       </Card>
