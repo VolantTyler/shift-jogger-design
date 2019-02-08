@@ -5,3 +5,11 @@ export const DashboardBanner = styled.div`
   background-color: #343a40;
   color: #ebeff3;
 `;
+
+export const SnapShotStyle = {
+    marginTop: '4em',
+}
+
+export const PrimaryText = styled.h1`
+
+`;

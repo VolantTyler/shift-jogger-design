@@ -1,10 +1,8 @@
-import React from 'react'
-
 import styled from 'styled-components'
 
 export const BannerLog = styled.div`
-    padding: 2em;
-    /* text-align: left; */
+    padding-top: 2em;
+    padding-bottom: 2em;
 `;
 
 export const BannerButton = {

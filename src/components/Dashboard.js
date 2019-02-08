@@ -6,9 +6,14 @@ import {
     Col 
     } from "reactstrap";
 //local imports
-import { DashboardBanner } from "./componentStyles/dashboardStyles";
+import { 
+    DashboardBanner,
+    SnapShotStyle
+ } from "./componentStyles/dashboardStyles";
 import { NewLog } from "./NewLog";
 import { LogSnapshot } from "./LogSnapshot";
+//local style
+
 
 const dashStyle = {
     textAlign: 'left',
@@ -34,7 +39,7 @@ export class Dashboard extends Component {
                 </Container>
             </DashboardBanner>
                 
-            <Container>
+            <Container style={SnapShotStyle}>
                 <h3>Recent Invoices</h3>
                 <Row>
                     <Col >
