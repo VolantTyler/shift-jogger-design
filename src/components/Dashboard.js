@@ -10,7 +10,7 @@ import {
     DashboardBanner,
     SnapShotStyle
  } from "./componentStyles/dashboardStyles";
-import { NewLog } from "./NewLog";
+import { DashboardBannerSummary } from "./DashboardBannerSummary";
 import { LogSnapshot } from "./LogSnapshot";
 //local style
 
@@ -27,13 +27,13 @@ export class Dashboard extends Component {
                 <Container>
                     <Row>
                         <Col xs="12" sm="4">
-                            <NewLog />
+                            <DashboardBannerSummary />
                         </Col>
                         <Col xs="12" sm="4">
-                            <NewLog />
+                            <DashboardBannerSummary />
                         </Col>
                         <Col xs="12" sm="4">
-                            <NewLog />         
+                            <DashboardBannerSummary />         
                         </Col>
                     </Row>
                 </Container>
