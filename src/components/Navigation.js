@@ -35,13 +35,14 @@ export class Navigation extends Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand >
+          {/* <NavbarBrand > */}
+          {/* TODO: change other NavLink to this pattern */}
             <Link 
               className="navbar-brand"
               to={'/'} >
               ShiftJogger
             </Link>
-          </NavbarBrand>
+          {/* </NavbarBrand> */}
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
