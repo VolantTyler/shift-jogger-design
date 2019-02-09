@@ -7,6 +7,7 @@ import './App.css';
 // local component imports
 import Navbar from './components/Navigation'
 import Dashboard from './components/Dashboard'
+import NewLog from './components/NewLog'
 
 class App extends Component {
   render() {
@@ -16,8 +17,8 @@ class App extends Component {
           <Navbar/>
             <Switch>
                <Route exact path="/" component={Dashboard} />
+               <Route exact path="/newlog" component={NewLog} />
             </Switch>
-          {/* <Dashboard/> */}
         </div>
       </Router>
     );
