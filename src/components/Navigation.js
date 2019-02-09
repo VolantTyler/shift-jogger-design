@@ -11,6 +11,9 @@ import {
     DropdownToggle,
     DropdownMenu,
     DropdownItem } from 'reactstrap';
+import {
+  Link
+} from 'react-router-dom'
 
 export class Navigation extends Component {
 
@@ -32,15 +35,25 @@ export class Navigation extends Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">ShiftJogger</NavbarBrand>
+          <NavbarBrand >
+            <Link 
+              className="navbar-brand"
+              to={'/'} >
+              ShiftJogger
+            </Link>
+          </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/">Dashboard</NavLink>
+                <Link to={'/'} >
+                  <NavLink >Dashboard</NavLink>
+                </Link>
               </NavItem>
               <NavItem>
-                <NavLink href="/">New Log</NavLink>
+                <Link to={'/newlog'} >
+                  <NavLink >New Log</NavLink>
+                </Link>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
