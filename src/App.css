@@ -1,8 +1,15 @@
 .App {
   text-align: center;
+  background-color: #ebeff3;
+
 }
 
 
+/* tool to see size of all elements for resizing and padding adjustments */
+/* * { 
+  outline: 1px solid red;
+  outline-offset: -1px;
+} */
 
 /* original create-react-app
 

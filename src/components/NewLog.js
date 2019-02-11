@@ -40,8 +40,10 @@ export class NewLog extends Component {
                 <Form>
                     {/* Title row */}
                     <Row>
+                        <Col>
                         <h3>Title</h3>
                         <hr></hr>
+                        </Col>
                     </Row>
                     <FormGroup row>
                         <Col >
@@ -52,8 +54,10 @@ export class NewLog extends Component {
                 {/* Duration column */}
                 <Col sm={6}>
                     <Row>
+                        <Col>
                         <h3>Duration</h3>
                         <hr></hr>
+                        </Col>
                     </Row>
                     <FormGroup row>
                         <Label for="startDate" sm={4}>Start Date</Label>
@@ -84,8 +88,10 @@ export class NewLog extends Component {
                 {/* Notes column */}
                 <Col sm={6}>
                     <Row>
+                        <Col>
                         <h3>Notes</h3>
                         <hr></hr>
+                        </Col>
                     </Row>
                     <FormGroup row style={{height: "100%"}}>
                         {/* <Label for="notes" sm={2}>Notes</Label> */}
