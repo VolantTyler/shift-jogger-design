@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const BannerLog = styled.div`
-    padding-top: 2em;
-    padding-bottom: 2em;
+    /* padding-top: 2em;
+    padding-bottom: 2em; */
 `;
 
 export const BannerButton = {

@@ -1,8 +1,22 @@
 .App {
   text-align: center;
+  background-color: #ebeff3;
+  min-height: 100vh;
+  height: auto;
+  padding-bottom: 4em;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: #343a40;
 }
 
 
+/* tool to see size of all elements for resizing and padding adjustments */
+/* * { 
+  outline: 1px solid red;
+  outline-offset: -1px;
+} */
 
 /* original create-react-app
 
