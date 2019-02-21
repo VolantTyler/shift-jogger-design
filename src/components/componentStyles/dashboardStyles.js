@@ -18,3 +18,10 @@ export const PrimaryText = styled.h1`
 export const Curved = {
     borderRadius: '.75rem',
 }
+
+export const FooterStyle = {
+  borderTop: '0',
+  borderRadius: '0 0 .75rem .75rem',
+  backgroundColor: '#f8f9fa',
+  textAlign: 'center',
+}

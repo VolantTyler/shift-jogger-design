@@ -3,7 +3,8 @@ import { Card, CardFooter, CardBody,
   CardTitle, CardText } from 'reactstrap';
 import {
     PrimaryText, 
-    Curved} from "./componentStyles/dashboardStyles";
+    Curved,
+    FooterStyle} from "./componentStyles/dashboardStyles";
 
 export class LogSnapshot extends Component  {
     render() {
@@ -15,7 +16,7 @@ export class LogSnapshot extends Component  {
           <PrimaryText>2.50 </PrimaryText>
           <CardText>2/7/19</CardText>
         </CardBody>
-        <CardFooter className="text-muted" style={{textAlign: 'center'}}>View Invoice</CardFooter>
+        <CardFooter className="text-muted" style={FooterStyle}>View Invoice</CardFooter>
       </Card>
     </div>
   )
