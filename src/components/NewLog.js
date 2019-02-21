@@ -47,7 +47,7 @@ export class NewLog extends Component {
                     </Row>
                     <FormGroup row>
                         <Col >
-                            <Input type="email" name="title" id="title" placeholder="with a placeholder" />
+                            <Input type="email" name="title" id="title" placeholder="..." />
                         </Col>
                     </FormGroup>
             <Row>
@@ -96,7 +96,7 @@ export class NewLog extends Component {
                     <FormGroup row style={{height: "100%"}}>
                         {/* <Label for="notes" sm={2}>Notes</Label> */}
                         <Col >
-                            <Input type="textarea" name="notes" id="notes" />
+                            <Input type="textarea" name="notes" id="notes" style={{height: "100%"}}/>
                         </Col>
                     </FormGroup>
                 </Col>

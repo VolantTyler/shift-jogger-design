@@ -4,6 +4,7 @@ export const DashboardBanner = styled.div`
   width: 100%;
   background-color: #343a40;
   color: #ebeff3;
+  padding: 2em 0;
 `;
 
 export const SnapShotStyle = {
