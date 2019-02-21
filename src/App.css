@@ -6,6 +6,11 @@
   padding-bottom: 4em;
 }
 
+.navbar-brand {
+  font-weight: 700;
+  color: #343a40;
+}
+
 
 /* tool to see size of all elements for resizing and padding adjustments */
 /* * { 

@@ -34,7 +34,7 @@ export class Navigation extends Component {
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md">
+        <Navbar  light expand="md">
           {/* <NavbarBrand > */}
           {/* TODO: change other NavLink to this pattern */}
             <Link 
