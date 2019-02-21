@@ -17,6 +17,7 @@ export const PrimaryText = styled.h1`
 
 export const Curved = {
     borderRadius: '.75rem',
+    boxShadow: '0 4px 6px hsla(0,0%,0%,.2)'
 }
 
 export const FooterStyle = {
